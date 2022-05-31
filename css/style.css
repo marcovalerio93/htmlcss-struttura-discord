@@ -4,3 +4,58 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+
+.debug #jumbotron{
+    background-color:blue;
+}
+.debug .col{
+    border: dotted 2px #000;  
+}
+
+/* fine debug */
+header{
+    height: 600px;
+    background-color: lightblue;
+}
+header .nav-bar{
+    height: 80px;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+header .nav-bar > div{
+    background-color: goldenrod;
+    padding: 10px;
+
+}
+header .logo, header .login{
+    width: 20%;
+}
+header .link{
+    width: 60%;
+}
+header .link ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+header .link li{
+    padding: 0 5px;
+}
+.login{
+    text-align: right;
+}
+#jumbotron{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+#jumbotron .content{
+    height: 100%;
+    background-color: violet;
+    width: 60%;
+}

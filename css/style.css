@@ -50,8 +50,13 @@
     border: dotted 2px #fff;
     background-color: lightseagreen;
 }
+.debug .footer-bottom{
+    background-color: aquamarine;
+}
 
-
+.debug .footer-bottom .col{
+    background-color: pink;
+}
 
 /* fine debug */
 
@@ -152,3 +157,18 @@ footer{
 .footer-top .menu-column .col{
     flex-basis: 25%;
 }
+
+.footer-bottom{
+    width: 1200px;
+    height: 80px;
+    margin: 50px auto 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer-bottom .col{
+    padding: 5px;
+}
+
+

@@ -6,14 +6,36 @@
 }
 /* font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
 
-.debug #jumbotron{
-    background-color:blue;
-}
 .debug .col{
     border: dotted 2px #000;  
 }
+.debug header .nav-bar > div{
+    background-color: goldenrod;
+
+}
+.debug #jumbotron{
+    background-color:darkblue;
+}
+.debug #jumbotron .content{
+    background-color: violet;
+}
+
+
+.debug main section{
+    height: 600px;
+}
+
+.debug .big-column{
+    background-color: dodgerblue;
+}
+.debug .small-column{
+    background-color: pink;
+}
 
 /* fine debug */
+
+
+/* header   */
 header{
     height: 600px;
     background-color: lightblue;
@@ -25,9 +47,8 @@ header .nav-bar{
     margin: 0 auto;
     align-items: center;
 
-}
-header .nav-bar > div{
-    background-color: goldenrod;
+} 
+header .nav-bar > div{  
     padding: 10px;
 
 }
@@ -56,6 +77,30 @@ header .link li{
 }
 #jumbotron .content{
     height: 100%;
-    background-color: violet;
     width: 60%;
 }
+
+
+/*main*/
+
+main section{
+    padding:50px;   
+}
+
+.bg-gray{
+    background-color: lightgray
+}
+.container{  
+    max-width: 1200px;
+    margin:0 auto;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+
+}
+.big-column{
+    width: 60%;
+}
+.small-column{
+    width: 40%;
+} 

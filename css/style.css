@@ -40,6 +40,18 @@
      background-color: green;
 }
 
+.debug .footer-top{
+    height: 600px;
+}
+.debug .main-column{
+    background-color: lightcoral;
+}
+.debug .footer-top .menu-column .col{
+    border: dotted 2px #fff;
+    background-color: lightseagreen;
+}
+
+
 
 /* fine debug */
 
@@ -116,4 +128,27 @@ main section{
 .full-column{
     height: 100%;
     width: 100%;
+}
+
+/* inizio footer */
+footer{
+    background-color: #000;
+}
+.footer-top{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 50px 0px;
+}
+.footer-top .main-column{
+    width: 25%;
+}
+.footer-top .menu-column{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top .menu-column .col{
+    flex-basis: 25%;
 }

@@ -32,6 +32,15 @@
     background-color: pink;
 }
 
+/* ultimasezione */
+.debug main section:last-child{
+    height: 1000px;
+}
+.debug .full-column{
+     background-color: green;
+}
+
+
 /* fine debug */
 
 
@@ -103,4 +112,8 @@ main section{
 }
 .small-column{
     width: 40%;
-} 
+}  
+.full-column{
+    height: 100%;
+    width: 100%;
+}
